@@ -26,7 +26,7 @@ The following script takes input for the variables and checks the view type. If 
     
 
     echo "File updated successfully!"
-}
+    }
 
 # Get input from the user
     read -p "Enter Component Name [INGESTOR/JOINER/WRANGLER/VALIDATOR]: " component
