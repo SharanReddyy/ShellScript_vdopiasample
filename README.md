@@ -1,10 +1,13 @@
 # ShellScript_vdopiasample
 
-The followinf script takes input for the variables and checks the view type. If the view type is bid, it shows in bid mode and auction mode for auction.
+The following script takes input for the variables and checks the view type. If the view type is bid, it shows in bid mode and auction mode for auction.
 
-#!/bin/bash
+
 
 # Function to update the sig.conf file
+
+
+#!/bin/bash
 update_sig_conf() {
     local component="$1"
     local scale="$2"
